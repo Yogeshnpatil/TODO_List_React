@@ -1,0 +1,34 @@
+table {
+  width: 100%;
+  text-align: justify;
+  overflow: auto;
+  height: 100%;
+}
+td {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+tr:nth-child(even) {
+  background: darkgray;
+}
+tr:nth-child(odd) {
+  background: lightgray;
+}
+.delete {
+  color: red;
+  display: none;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.list:hover .delete {
+  display: block;
+  float: right;
+}
+.list {
+  color: white;
+  background-color: grey;
+}
